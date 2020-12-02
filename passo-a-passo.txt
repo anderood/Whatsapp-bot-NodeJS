@@ -1,0 +1,32 @@
+
+# Apresentação de Boas Vindas - 1
+
+Boas Vindas
+Qual é o Nome da Pessoa
+De onde ela é
+(Modo Atacado ou Varejo?) - Atualização Futura, talvez
+
+# Apresentar Catalogo
+
+Enviar Catalogo
+Peça, cor, tamanho
+Quantidade de Peças
+
+# Catalogo escolhido
+Apresentar itens
+
+# Endereço
+Informar CEP
+Confirmação do Endereço
+Ponto de Referencia
+
+# Formas de Pagamento
+Dinheiro 
+Cartão
+
+# Resumo do Pedido
+
+
+
+
+
