@@ -1,15 +1,24 @@
 {
-  "name": "03-ZapBOT2",
+  "name": "Whatsapp-bot-NodeJS",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anderood/Whatsapp-bot-NodeJS.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anderood/Whatsapp-bot-NodeJS/issues"
+  },
+  "homepage": "https://github.com/anderood/Whatsapp-bot-NodeJS#readme",
   "dependencies": {
-    "venom-bot": "^1.0.4"
+    "puppeteer": "^5.5.0",
+    "venom-bot": "^2.1.0"
   }
 }
