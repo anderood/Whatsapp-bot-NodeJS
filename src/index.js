@@ -4,20 +4,20 @@ const bot = require('venom-bot');
 const bankofstages = require('./bankofstages');
 const steps = require('./steps');
  
-// bot.create().then((client) => start(client));
+bot.create().then((client) => start(client));
  
-// function start(client) {
-//   client.onMessage((message) => {
-//     if (message.body === 'Hi') {
-//       client.sendText(message.from, '👋 Hello from sulla!');
-//     }
-//   });
-// }
+function start(client) {
+    client.onMessage((message) => {
+      console.log(steps.steps[getStage('5511930891282@c.us')].obj.execute());
+      client.sendText(
+         message.from, 
+         steps.steps[getStage("5511930891282@c.us")].obj.execute()
+      );
+    });
+  }
 
 function getStage(user) {
     return bankofstages.db[user].stage;
 }
 
-console.log(getStage('user2'));
-
-//console.log(steps.step[getStage('user1')].obj.execute());
+// console.log(steps.steps[getStage('user1')]);

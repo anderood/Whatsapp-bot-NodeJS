@@ -1,6 +1,6 @@
 
 let bankOfStage = {
-    user1: {
+    "5511930891282@c.us": {
         stage: 0,
     }, 
     user2: {
